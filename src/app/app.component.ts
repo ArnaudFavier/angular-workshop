@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  name : string = '🙂';
+  users : string[] = ['Arnaud','Hey'];
+
+  sayHello(): void {
+    alert('Hello');
+  }
 }
